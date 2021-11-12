@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.062">
+  <properties />
+  
+  
+            <testcase name="Verifytext" time="0.024" classname="testngdemo.MultipleValidations" />
+                <testcase name="VerifySignInbtnisEnabled" time="0.028" classname="testngdemo.MultipleValidations" />
+                <testcase name="titleVerification" time="0.010" classname="testngdemo.MultipleValidations" />
+      
+</testsuite>

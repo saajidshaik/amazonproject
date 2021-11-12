@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8110" started-at="2021-11-09T04:18:10 UTC" finished-at="2021-11-09T04:18:18 UTC">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="3415" started-at="2021-11-09T04:18:10 UTC" finished-at="2021-11-09T04:18:13 UTC">
+      <class name="testngdemo.CBT">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:testngdemo.CBT@80503]" name="launchApplication" is-config="true" duration-ms="3009" started-at="2021-11-09T04:18:10 UTC" finished-at="2021-11-09T04:18:13 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="VerifySignInbtnisEnabled()[pri:0, instance:testngdemo.CBT@80503]" name="VerifySignInbtnisEnabled" duration-ms="250" started-at="2021-11-09T04:18:13 UTC" finished-at="2021-11-09T04:18:13 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInbtnisEnabled -->
+        <test-method status="PASS" signature="Verifytext()[pri:0, instance:testngdemo.CBT@80503]" name="Verifytext" duration-ms="47" started-at="2021-11-09T04:18:13 UTC" finished-at="2021-11-09T04:18:13 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifytext -->
+        <test-method status="PASS" signature="titleVerification()[pri:0, instance:testngdemo.CBT@80503]" name="titleVerification" duration-ms="8" started-at="2021-11-09T04:18:13 UTC" finished-at="2021-11-09T04:18:13 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testngdemo.CBT@80503]" name="closeBrowser" is-config="true" duration-ms="69" started-at="2021-11-09T04:18:13 UTC" finished-at="2021-11-09T04:18:13 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testngdemo.CBT -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox.Test " duration-ms="4662" started-at="2021-11-09T04:18:13 UTC" finished-at="2021-11-09T04:18:18 UTC">
+      <class name="testngdemo.CBT">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:testngdemo.CBT@670b40af]" name="launchApplication" is-config="true" duration-ms="3705" started-at="2021-11-09T04:18:13 UTC" finished-at="2021-11-09T04:18:17 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="VerifySignInbtnisEnabled()[pri:0, instance:testngdemo.CBT@670b40af]" name="VerifySignInbtnisEnabled" duration-ms="130" started-at="2021-11-09T04:18:17 UTC" finished-at="2021-11-09T04:18:17 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInbtnisEnabled -->
+        <test-method status="PASS" signature="Verifytext()[pri:0, instance:testngdemo.CBT@670b40af]" name="Verifytext" duration-ms="124" started-at="2021-11-09T04:18:17 UTC" finished-at="2021-11-09T04:18:17 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifytext -->
+        <test-method status="PASS" signature="titleVerification()[pri:0, instance:testngdemo.CBT@670b40af]" name="titleVerification" duration-ms="19" started-at="2021-11-09T04:18:17 UTC" finished-at="2021-11-09T04:18:17 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testngdemo.CBT@670b40af]" name="closeBrowser" is-config="true" duration-ms="679" started-at="2021-11-09T04:18:17 UTC" finished-at="2021-11-09T04:18:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testngdemo.CBT -->
+    </test> <!-- Firefox.Test  -->
+  </suite> <!-- Suite -->
+</testng-results>
