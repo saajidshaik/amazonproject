@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4944" started-at="2021-11-11T13:14:42 UTC" finished-at="2021-11-11T13:14:47 UTC">
+  <suite name="Default suite" duration-ms="5126" started-at="2021-11-15T03:52:12 UTC" finished-at="2021-11-15T03:52:17 UTC">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4944" started-at="2021-11-11T13:14:42 UTC" finished-at="2021-11-11T13:14:47 UTC">
+    <test name="Default test" duration-ms="5126" started-at="2021-11-15T03:52:12 UTC" finished-at="2021-11-15T03:52:17 UTC">
       <class name="in.amazon.testscripts.InvalidUserTest">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="launchApplication" is-config="true" duration-ms="2499" started-at="2021-11-11T13:14:42 UTC" finished-at="2021-11-11T13:14:44 UTC">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="launchApplication" is-config="true" duration-ms="2558" started-at="2021-11-15T03:52:12 UTC" finished-at="2021-11-15T03:52:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="InvalidUserShouldNotBeAbleToLogin()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="InvalidUserShouldNotBeAbleToLogin" duration-ms="2317" started-at="2021-11-11T13:14:44 UTC" finished-at="2021-11-11T13:14:47 UTC">
+        <test-method status="PASS" signature="InvalidUserShouldNotBeAbleToLogin()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="InvalidUserShouldNotBeAbleToLogin" duration-ms="2443" started-at="2021-11-15T03:52:15 UTC" finished-at="2021-11-15T03:52:17 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidUserShouldNotBeAbleToLogin -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="closeTheBrowser" is-config="true" duration-ms="73" started-at="2021-11-11T13:14:47 UTC" finished-at="2021-11-11T13:14:47 UTC">
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="closeTheBrowser" is-config="true" duration-ms="74" started-at="2021-11-15T03:52:17 UTC" finished-at="2021-11-15T03:52:17 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->

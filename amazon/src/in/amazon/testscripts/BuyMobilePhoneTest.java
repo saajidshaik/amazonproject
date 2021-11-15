@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import in.amazon.pages.ApplePhones;
+import in.amazon.pages.ApplePhone;
 import in.amazon.pages.BuyPhone;
 import in.amazon.pages.LandingPage;
 import in.amazon.pages.Mobiles;
@@ -35,7 +35,7 @@ public class BuyMobilePhoneTest {
 	Mobiles mobiles = new Mobiles(driver);
 	mobiles.clickApple();
 	
-	ApplePhones applePhones = new ApplePhones(driver);
+	ApplePhone applePhones = new ApplePhone(driver);
 	applePhones.clickfirstApplePhone();
 	
 	ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());

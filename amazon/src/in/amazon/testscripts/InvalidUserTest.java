@@ -9,7 +9,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import in.amazon.pages.ApplePhones;
 import in.amazon.pages.BuyPhone;
 import in.amazon.pages.LandingPage;
 import in.amazon.pages.Mobiles;
