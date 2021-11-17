@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5126" started-at="2021-11-15T03:52:12 UTC" finished-at="2021-11-15T03:52:17 UTC">
+  <suite name="Default suite" duration-ms="9623" started-at="2021-11-15T04:11:59 UTC" finished-at="2021-11-15T04:12:09 UTC">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5126" started-at="2021-11-15T03:52:12 UTC" finished-at="2021-11-15T03:52:17 UTC">
-      <class name="in.amazon.testscripts.InvalidUserTest">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="launchApplication" is-config="true" duration-ms="2558" started-at="2021-11-15T03:52:12 UTC" finished-at="2021-11-15T03:52:15 UTC">
+    <test name="Default test" duration-ms="9623" started-at="2021-11-15T04:11:59 UTC" finished-at="2021-11-15T04:12:09 UTC">
+      <class name="in.amazon.testscripts.BuyMobilePhoneTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:in.amazon.testscripts.BuyMobilePhoneTest@528931cf]" name="launchApplication" is-config="true" duration-ms="2446" started-at="2021-11-15T04:11:59 UTC" finished-at="2021-11-15T04:12:02 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="InvalidUserShouldNotBeAbleToLogin()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="InvalidUserShouldNotBeAbleToLogin" duration-ms="2443" started-at="2021-11-15T03:52:15 UTC" finished-at="2021-11-15T03:52:17 UTC">
+        <test-method status="PASS" signature="buyMobile()[pri:0, instance:in.amazon.testscripts.BuyMobilePhoneTest@528931cf]" name="buyMobile" duration-ms="7048" started-at="2021-11-15T04:12:02 UTC" finished-at="2021-11-15T04:12:09 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InvalidUserShouldNotBeAbleToLogin -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:in.amazon.testscripts.InvalidUserTest@528931cf]" name="closeTheBrowser" is-config="true" duration-ms="74" started-at="2021-11-15T03:52:17 UTC" finished-at="2021-11-15T03:52:17 UTC">
+        </test-method> <!-- buyMobile -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:in.amazon.testscripts.BuyMobilePhoneTest@528931cf]" name="CloseBrowser" is-config="true" duration-ms="82" started-at="2021-11-15T04:12:09 UTC" finished-at="2021-11-15T04:12:09 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeTheBrowser -->
-      </class> <!-- in.amazon.testscripts.InvalidUserTest -->
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- in.amazon.testscripts.BuyMobilePhoneTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

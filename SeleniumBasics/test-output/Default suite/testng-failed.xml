@@ -5,8 +5,8 @@
     <classes>
       <class name="testngdemo.CBT">
         <methods>
+          <include name="VerifySignInbtnisEnabled"/>
           <include name="launchApplication"/>
-          <include name="closeBrowser"/>
           <include name="closeBrowser"/>
           <include name="titleVerification"/>
           <include name="Verifytext"/>
